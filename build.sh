@@ -8,4 +8,4 @@ echo "Build origin-response-function"
 cd lambda/origin-response-function && zip -FS -q -r ../../dist/origin-response-function.zip * && cd ../..
 echo "Build viewer-request-function"
 cd lambda/viewer-request-function && zip -FS -q -r ../../dist/viewer-request-function.zip * && cd ../..
-echo "Done building stuff"
+echo "Done building lambda-edge-image-resizer"
